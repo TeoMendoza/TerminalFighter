@@ -30,7 +30,7 @@ func attack_blocked(bullet):
 		bullet.direction_string = "Right"
 		bullet.owner_id = owner.player_id
 	else:
-		# These two lines go here because the hurt animation needs to play, and if they are in end block, they happen after the hurt animation and override it with the stop
+		# These two lines go here because the death animation needs to play, and if they are in end block, they happen after the animation and override it with the stop
 		owner.anim_sprite.stop()
 		owner.animation_locked = false
 		
@@ -45,6 +45,16 @@ func process_block(delta):
 		end_block(owner)
 	
 func end_block(player):
+	owner.blocking = false
+	owner.is_using_ability = false
+	owner.speed = 250
+	owner.block_on_cooldown = true
+	await owner.get_tree().create_timer(cooldown).timeout
+	owner.ability_anim_sprite.play("Block")
+	owner.block_on_cooldown = false
+
+# Same function as end_block, different name to clarify scenario, also not all abilities will have the same end_if_slammed function
+func end_block_if_slammed():
 	owner.blocking = false
 	owner.is_using_ability = false
 	owner.speed = 250

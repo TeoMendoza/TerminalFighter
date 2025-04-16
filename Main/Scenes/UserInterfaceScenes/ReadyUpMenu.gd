@@ -3,9 +3,10 @@ extends Control
 signal ready_pressed(selected_character: String) # Signal to notify `Main.gd` when a player is ready
 
 @onready var ready_button = $ReadyButton
-@onready var ninja_sprite = $NinjaIcon
+@onready var character_icon = $CharacterIcon
 @onready var character_selector = $CharacterSelector
-var selected_character: String = "Ninja"
+@onready var selected_character: String = "Ninja"
+
 var playable_characters: Array[String] = ["Ninja", "Sumo"]
 
 
@@ -21,8 +22,9 @@ func _on_ready_pressed():
 
 func _process(delta):
 	if selected_character == "Ninja":
-		ninja_sprite.play("Idle")
-		%DashAbility.play("Dash")
+		character_icon.play("Ninja")
+	elif selected_character == "Sumo":
+		character_icon.play("Sumo")
 
 func _on_character_selector_item_selected(index):
 	selected_character = character_selector.get_item_text(index)

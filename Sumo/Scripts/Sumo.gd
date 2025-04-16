@@ -262,6 +262,8 @@ func take_knockback(knockback_time, slammer_position_x):
 func take_knockback_rpc(knockback_time, slammer_position_x):
 	#print("taking knockback")
 	if not knocked_back and get_multiplayer_authority() == multiplayer.get_unique_id():
+		if slamming:
+			ability1.end_slam_if_slammed()
 		knocked_back = true
 		knockback_timer = knockback_time
 		knockback_duration = knockback_time

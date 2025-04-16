@@ -810,7 +810,7 @@ replication_config = SubResource("SceneReplicationConfig_mf0my")
 position = Vector2(-1, -38)
 scale = Vector2(2.14844, 2.26841)
 sprite_frames = SubResource("SpriteFrames_7rc40")
-animation = &"KnockbackInner"
+animation = &"Block"
 
 [node name="AbilityResetSprite" type="AnimatedSprite2D" parent="CharacterBody2D"]
 position = Vector2(8, 36)

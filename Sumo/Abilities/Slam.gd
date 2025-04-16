@@ -57,7 +57,6 @@ func process_slam(player, delta):
 			
 # Gets called from process_dash()
 func end_slam(player):
-
 	owner.anim_sprite.play("LandSlam")
 	owner.velocity.x = 0
 	check_slam_hits()
@@ -83,3 +82,9 @@ func check_slam_hits():
 			elif body.is_in_group("Sumo"):
 				#print("Sumo SLammed")
 				body.take_knockback(slam_time * 0.75, owner.global_position.x)
+
+func end_slam_if_slammed():
+	owner.slamming = false
+	owner.is_using_ability = false
+	await owner.get_tree().create_timer(cooldown).timeout
+	owner.slam_on_cooldown = false

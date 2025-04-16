@@ -191,7 +191,6 @@ func perform_state_actions(delta):
 				else:
 					anim_sprite.play("KnockbackInner")
 				
-			print(knockback_duration)	
 			velocity.x *= 1 - ((knockback_duration-knockback_timer)/knockback_duration) # Makes the player knockback slow down throughout
 			knockback_timer -= delta
 			if knockback_timer <= 0:
@@ -277,6 +276,8 @@ func take_knockback(knockback_time, slammer_position_x):
 func take_knockback_rpc(knockback_time, slammer_position_x):
 	#print("taking knockback")
 	if not dashing and not knocked_back and get_multiplayer_authority() == multiplayer.get_unique_id():
+		if blocking:
+			ability2.end_block_if_slammed()
 		knocked_back = true
 		knockback_timer = knockback_time
 		knockback_duration = knockback_time
