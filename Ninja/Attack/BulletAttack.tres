@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="BulletAttack" load_steps=3 format=3 uid="uid://b6f55axamo8oh"]
+
+[ext_resource type="Script" path="res://Ninja/Attack/BulletAttack.gd" id="1_sc6iw"]
+[ext_resource type="PackedScene" uid="uid://bco32saqop1wq" path="res://Ninja/Scenes/Bullet.tscn" id="1_sv8eq"]
+
+[resource]
+script = ExtResource("1_sc6iw")
+cooldown = 2.5
+projectile_scene = ExtResource("1_sv8eq")

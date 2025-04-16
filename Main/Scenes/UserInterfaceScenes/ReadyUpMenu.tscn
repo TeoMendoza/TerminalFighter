@@ -1,0 +1,325 @@
+[gd_scene load_steps=35 format=3 uid="uid://c2bf7ya6qupfv"]
+
+[ext_resource type="Script" path="res://Main/Scenes/UserInterfaceScenes/ReadyUpMenu.gd" id="1_cm1lq"]
+[ext_resource type="Texture2D" uid="uid://cl7jgv07t81t3" path="res://Ninja/Assets/IdleSpriteSheet.png" id="2_8a6ki"]
+[ext_resource type="Texture2D" uid="uid://dav7s73jog53r" path="res://Ninja/Assets/DashSpriteSheet.png" id="2_ebhs5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5u5yj"]
+atlas = ExtResource("2_ebhs5")
+region = Rect2(0, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rulmj"]
+atlas = ExtResource("2_ebhs5")
+region = Rect2(96, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gelhc"]
+atlas = ExtResource("2_ebhs5")
+region = Rect2(192, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wtkap"]
+atlas = ExtResource("2_ebhs5")
+region = Rect2(288, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v6g0w"]
+atlas = ExtResource("2_ebhs5")
+region = Rect2(384, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rh6df"]
+atlas = ExtResource("2_ebhs5")
+region = Rect2(480, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kekei"]
+atlas = ExtResource("2_ebhs5")
+region = Rect2(576, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wix44"]
+atlas = ExtResource("2_ebhs5")
+region = Rect2(672, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_256kt"]
+atlas = ExtResource("2_8a6ki")
+region = Rect2(0, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tkmhl"]
+atlas = ExtResource("2_8a6ki")
+region = Rect2(96, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dnmoj"]
+atlas = ExtResource("2_8a6ki")
+region = Rect2(192, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x582d"]
+atlas = ExtResource("2_8a6ki")
+region = Rect2(288, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cro1t"]
+atlas = ExtResource("2_8a6ki")
+region = Rect2(384, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h221b"]
+atlas = ExtResource("2_8a6ki")
+region = Rect2(480, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_23pem"]
+atlas = ExtResource("2_8a6ki")
+region = Rect2(576, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pdvrv"]
+atlas = ExtResource("2_8a6ki")
+region = Rect2(672, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mqboo"]
+atlas = ExtResource("2_8a6ki")
+region = Rect2(768, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lcr4a"]
+atlas = ExtResource("2_8a6ki")
+region = Rect2(864, 0, 96, 96)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_thipn"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5u5yj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rulmj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gelhc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wtkap")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v6g0w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rh6df")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kekei")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wix44")
+}],
+"loop": true,
+"name": &"Dash",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_256kt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tkmhl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dnmoj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x582d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cro1t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h221b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_23pem")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pdvrv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mqboo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lcr4a")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_css8s"]
+atlas = ExtResource("2_ebhs5")
+region = Rect2(0, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1e0u1"]
+atlas = ExtResource("2_ebhs5")
+region = Rect2(96, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ib1mm"]
+atlas = ExtResource("2_ebhs5")
+region = Rect2(192, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rmcjt"]
+atlas = ExtResource("2_ebhs5")
+region = Rect2(288, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_idc1j"]
+atlas = ExtResource("2_ebhs5")
+region = Rect2(384, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mmvj1"]
+atlas = ExtResource("2_ebhs5")
+region = Rect2(480, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n402h"]
+atlas = ExtResource("2_ebhs5")
+region = Rect2(576, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t1u7i"]
+atlas = ExtResource("2_ebhs5")
+region = Rect2(672, 0, 96, 96)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_34gcd"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_css8s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1e0u1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ib1mm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rmcjt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_idc1j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mmvj1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n402h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t1u7i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_css8s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_css8s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_css8s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_css8s")
+}],
+"loop": true,
+"name": &"Dash",
+"speed": 8.0
+}]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0g0h2"]
+bg_color = Color(0.213711, 0.220982, 0.204962, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.226707, 0.226708, 0.226707, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+shadow_size = 10
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_pp3yi"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_0n0ip"]
+
+[node name="ReadyUpMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_cm1lq")
+
+[node name="ReadyButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 580.0
+offset_top = 600.0
+offset_right = 708.0
+offset_bottom = 631.0
+theme_override_colors/icon_disabled_color = Color(0, 0, 0, 1)
+text = "Look For Match"
+icon_alignment = 1
+
+[node name="NinjaIcon" type="AnimatedSprite2D" parent="."]
+position = Vector2(640, 400)
+scale = Vector2(4, 4)
+sprite_frames = SubResource("SpriteFrames_thipn")
+animation = &"Idle"
+
+[node name="DashAbility" type="AnimatedSprite2D" parent="NinjaIcon"]
+unique_name_in_owner = true
+position = Vector2(81, -86.75)
+scale = Vector2(0.335938, 0.317708)
+sprite_frames = SubResource("SpriteFrames_34gcd")
+animation = &"Dash"
+frame = 7
+frame_progress = 1.0
+
+[node name="Panel" type="Panel" parent="NinjaIcon/DashAbility"]
+offset_left = 46.8837
+offset_top = -27.541
+offset_right = 280.884
+offset_bottom = 87.459
+scale = Vector2(0.75, 0.75)
+theme_override_styles/panel = SubResource("StyleBoxFlat_0g0h2")
+
+[node name="DashAbilityText" type="RichTextLabel" parent="NinjaIcon/DashAbility/Panel"]
+layout_mode = 0
+offset_left = 7.10078
+offset_top = 7.34423
+offset_right = 298.101
+offset_bottom = 144.344
+scale = Vector2(0.75, 0.75)
+size_flags_vertical = 3
+theme_override_colors/default_color = Color(0.123785, 0.127666, 0.138389, 1)
+bbcode_enabled = true
+text = "[b]Dash Ability[/b] - Dash at a fast speed in the 	direction you are facing, and become invulnerable throughout. 
+[b]Cooldown[/b] - 10 seconds
+[b]Duration[/b] - 0.25 seconds
+"
+
+[node name="BlockAbility" type="AnimatedSprite2D" parent="NinjaIcon"]
+position = Vector2(87.75, -80.5)
+sprite_frames = SubResource("SpriteFrames_pp3yi")
+
+[node name="BlockAbilityText" type="RichTextLabel" parent="NinjaIcon/BlockAbility"]
+offset_top = 122.0
+offset_right = 287.0
+offset_bottom = 288.0
+scale = Vector2(0.25, 0.25)
+size_flags_vertical = 3
+
+[node name="DoubleJumpAbility" type="AnimatedSprite2D" parent="NinjaIcon"]
+sprite_frames = SubResource("SpriteFrames_0n0ip")
+
+[node name="DoubleJumpAbilityText" type="RichTextLabel" parent="NinjaIcon/DoubleJumpAbility"]
+offset_left = 117.75
+offset_top = -52.5
+offset_right = 157.75
+offset_bottom = -12.5
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="CharacterSelector" type="OptionButton" parent="."]
+layout_mode = 0
+offset_left = 603.0
+offset_top = 637.0
+offset_right = 689.0
+offset_bottom = 668.0
+
+[connection signal="item_selected" from="CharacterSelector" to="." method="_on_character_selector_item_selected"]

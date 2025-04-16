@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://uis656xampa0"]
+
+[ext_resource type="Texture2D" uid="uid://cs7ttydolwk7y" path="res://Sumo/Assets/Coin Bag Sprite Sheet.png" id="1_suwhj"]
+
+[resource]
+atlas = ExtResource("1_suwhj")
+region = Rect2(6, 7, 20, 16)

@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://b12agolhxt34w"]
+
+[ext_resource type="Texture2D" uid="uid://dav7s73jog53r" path="res://Ninja/Assets/DashSpriteSheet.png" id="1_mqqke"]
+
+[resource]
+atlas = ExtResource("1_mqqke")
+region = Rect2(132, 47, 43, 39)

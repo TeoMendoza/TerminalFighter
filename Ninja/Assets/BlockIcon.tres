@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://dh5ehmdqqvx1f"]
+
+[ext_resource type="Texture2D" uid="uid://pvoq1ghg2qch" path="res://Ninja/Assets/BlockSpriteSheet.png" id="1_58dkf"]
+
+[resource]
+atlas = ExtResource("1_58dkf")
+region = Rect2(419, 45, 36, 41)

@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://cne6huuvgt7qj"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_aa705"]
+
+[node name="MainWorld" type="Node2D"]
+script = ExtResource("1_aa705")
+
+[node name="MultiplayerSpawner" type="MultiplayerSpawner" parent="."]
+_spawnable_scenes = PackedStringArray("res://Main/Scenes/Arenas/BaseArena.tscn")
+spawn_path = NodePath("..")
+spawn_limit = 1
+
+[node name="HTTPRequest" type="HTTPRequest" parent="."]
+unique_name_in_owner = true
