@@ -178,6 +178,8 @@ func _on_player_death():
 	# Deletes arena and respawns the lobby menu
 	var arena_to_delete = get_node("BaseArena")
 	arena_to_delete.queue_free()
+	player1_character = ""
+	player2_character = ""
 	ready_up_menu = ready_up_menu_scene.instantiate()
 	add_child(ready_up_menu)
 	ready_up_menu.ready_pressed.connect(_on_ready_pressed)

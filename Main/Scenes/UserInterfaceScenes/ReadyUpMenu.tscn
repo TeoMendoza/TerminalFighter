@@ -280,7 +280,7 @@ position = Vector2(640, 400)
 scale = Vector2(4, 4)
 sprite_frames = SubResource("SpriteFrames_thipn")
 animation = &"Ninja"
-frame_progress = 0.269187
+frame_progress = 0.330253
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 

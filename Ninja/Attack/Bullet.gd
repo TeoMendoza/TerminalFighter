@@ -9,7 +9,6 @@ const sumo_projectile_scene: PackedScene = preload("res://Sumo/Scenes/CoinBag.ts
 @export var lifetime: float  # Time before bullet disappears
 @export var anim_sprite: AnimatedSprite2D
 @export var col_shape: CollisionShape2D
-@export var bullet_dropoff: float = 2
 
 var owner_id: int
 var direction: Vector2 # Angle of player cursor in radians
@@ -48,7 +47,6 @@ func _ready():
 # Movement
 func _process(delta):
 	position += travel_info * delta
-	travel_info.y += bullet_dropoff
 
 # Bullet collision cases
 func _on_body_entered(body):
@@ -59,7 +57,6 @@ func _on_body_entered(body):
 			elif body.dashing:
 				pass
 			else:
-				
 				body.take_damage(damage)  # Calls the enemy's damage function
 				play_break_animation()
 				

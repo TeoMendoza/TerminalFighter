@@ -10,7 +10,7 @@ func execute(player):
 	var player_direction = player.get_facing_direction()
 	var spawn_position = player.get_global_position() + Vector2(15 * player_direction.x, 20 * player_direction.y)
 	var bullet = Bullet.new_bullet(player, player_direction, spawn_position, player.character)
-	player.get_tree().current_scene.add_child(bullet)
+	player.get_tree().current_scene.add_child(bullet, true)
 	
 	# Adjusts sprite direction to allign the attack animation with the direction of shooting
 	if player_direction.x >= 0 and player.last_facing_direction == "Right":

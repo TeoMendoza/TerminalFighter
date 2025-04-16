@@ -71,7 +71,6 @@ damage = 20
 lifetime = 2.0
 anim_sprite = NodePath("AnimatedSprite2D")
 col_shape = NodePath("CollisionShape2D")
-bullet_dropoff = 1.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 shape = SubResource("CircleShape2D_ansos")
