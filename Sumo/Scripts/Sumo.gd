@@ -6,6 +6,7 @@ signal player_death
 # Synchronized variables
 @export var anim_sprite: AnimatedSprite2D
 @export var ability_anim_sprite: AnimatedSprite2D
+@export var fart_anim_sprite: AnimatedSprite2D
 @export var aim_arrow: Node2D
 @export var direction: int
 @export var last_facing_direction: String = ""
@@ -59,6 +60,8 @@ func _ready():
 	anim_sprite.set_multiplayer_authority(player_id)
 	ability_anim_sprite.set_multiplayer_authority(player_id)
 	ability_anim_sprite.play("Default")
+	fart_anim_sprite.set_multiplayer_authority(player_id)
+	fart_anim_sprite.play("Default")
 	slam_area.set_multiplayer_authority(player_id)
 	spawn_orientation_logic()
 	
@@ -81,10 +84,14 @@ func _physics_process(delta):
 				last_facing_direction = "Right"
 				anim_sprite.flip_h = false
 				get_node("NinjaUI").scale.x = 1
+				fart_anim_sprite.position.x = -34
+				fart_anim_sprite.flip_h = true
 			elif direction == -1:
 				last_facing_direction = "Left"
 				anim_sprite.flip_h = true
 				get_node("NinjaUI").scale.x = -1
+				fart_anim_sprite.position.x = 34
+				fart_anim_sprite.flip_h = false
 			else:
 				pass
 			update_aim_indicator()
@@ -198,7 +205,7 @@ func attack_action():
 		
 		# Can't go in the bullet scripts since we have to return the bullet data for the rpc
 		await get_tree().create_timer(attack.cooldown).timeout
-		#ability_anim_sprite.play("Attack")
+		ability_anim_sprite.play("Attack")
 		attack_on_cooldown = false	
 
 # Starts the dash or does during-dash logic to detect collisions
@@ -253,7 +260,10 @@ func _on_animated_sprite_2d_animation_finished():
 		animation_locked = false
 		
 func _on_ability_reset_sprite_animation_finished():
-	ability_anim_sprite.play("Default") # Resets to empty animation 
+	ability_anim_sprite.play("Default") # Resets to empty animation
+
+func _on_fart_sprite_animation_finished():
+	fart_anim_sprite.play("Default")
 	
 func take_knockback(knockback_time, slammer_position_x):
 	take_knockback_rpc.rpc(knockback_time, slammer_position_x)
@@ -284,4 +294,7 @@ func spawn_attack_object_rpc(bullet_spawn_info):
 	var spawn_position = bullet_spawn_info[1]
 	var bullet = Bullet.new_bullet(self, player_direction, spawn_position, character)
 	self.get_tree().current_scene.add_child(bullet)
+
+
+
 

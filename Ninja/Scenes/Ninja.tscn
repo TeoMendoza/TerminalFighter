@@ -79,18 +79,12 @@ properties/11/replication_mode = 1
 properties/12/path = NodePath(".:animation_locked")
 properties/12/spawn = true
 properties/12/replication_mode = 1
-properties/13/path = NodePath("AbilityResetSprite:animation")
+properties/13/path = NodePath("AimIndicator:position")
 properties/13/spawn = true
 properties/13/replication_mode = 1
-properties/14/path = NodePath("AbilityResetSprite:frame")
+properties/14/path = NodePath(".:knocked_back")
 properties/14/spawn = true
 properties/14/replication_mode = 1
-properties/15/path = NodePath("AimIndicator:position")
-properties/15/spawn = true
-properties/15/replication_mode = 1
-properties/16/path = NodePath(".:knocked_back")
-properties/16/spawn = true
-properties/16/replication_mode = 1
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dq4x4"]
 atlas = ExtResource("7_qah55")
@@ -816,7 +810,7 @@ animation = &"Block"
 position = Vector2(8, 36)
 scale = Vector2(0.370132, 0.271307)
 sprite_frames = SubResource("SpriteFrames_33eso")
-animation = &"Dash1"
+animation = &"Block"
 
 [connection signal="animation_finished" from="CharacterBody2D/AnimatedSprite2D" to="CharacterBody2D" method="_on_animated_sprite_2d_animation_finished"]
 [connection signal="animation_finished" from="CharacterBody2D/AbilityResetSprite" to="CharacterBody2D" method="_on_ability_reset_sprite_animation_finished"]

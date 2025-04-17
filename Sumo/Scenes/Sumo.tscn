@@ -1,4 +1,4 @@
-[gd_scene load_steps=80 format=3 uid="uid://nrsd60jr7ku"]
+[gd_scene load_steps=96 format=3 uid="uid://nrsd60jr7ku"]
 
 [ext_resource type="Script" path="res://Sumo/Scripts/Sumo.gd" id="1_502xe"]
 [ext_resource type="Script" path="res://Sumo/Abilities/LowHealthBuff.gd" id="2_6wp20"]
@@ -10,6 +10,9 @@
 [ext_resource type="PackedScene" uid="uid://cf42n7dnmposb" path="res://Sumo/Scenes/CoinBag.tscn" id="4_aidtt"]
 [ext_resource type="Texture2D" uid="uid://c6218cq8gw2xa" path="res://Ninja/Assets/shuriken.png" id="5_o37su"]
 [ext_resource type="Texture2D" uid="uid://bjhjpl0luhglm" path="res://Sumo/Assets/Fart.png" id="8_0j2jq"]
+[ext_resource type="Texture2D" uid="uid://c5x056pep334v" path="res://Sumo/Assets/Coins.png" id="9_og2nb"]
+[ext_resource type="Texture2D" uid="uid://bil8uyovqffu0" path="res://Sumo/Assets/Bones.png" id="10_3h5ed"]
+[ext_resource type="Texture2D" uid="uid://biba880dyke7j" path="res://Sumo/Assets/Slam.png" id="11_m0nnb"]
 
 [sub_resource type="Resource" id="Resource_siueu"]
 script = ExtResource("2_6wp20")
@@ -497,20 +500,90 @@ animations = [{
 "speed": 9.0
 }]
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_6t13l"]
-atlas = ExtResource("8_0j2jq")
-region = Rect2(0, 0, 341, 1024)
+[sub_resource type="AtlasTexture" id="AtlasTexture_7amyn"]
+atlas = ExtResource("9_og2nb")
+region = Rect2(0, 0, 512, 512)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_mq5f6"]
-atlas = ExtResource("8_0j2jq")
-region = Rect2(341, 0, 341, 1024)
+[sub_resource type="AtlasTexture" id="AtlasTexture_wqaw4"]
+atlas = ExtResource("9_og2nb")
+region = Rect2(512, 0, 512, 512)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_e42xv"]
-atlas = ExtResource("8_0j2jq")
-region = Rect2(682, 0, 341, 1024)
+[sub_resource type="AtlasTexture" id="AtlasTexture_ah1v1"]
+atlas = ExtResource("9_og2nb")
+region = Rect2(0, 512, 512, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qhybv"]
+atlas = ExtResource("9_og2nb")
+region = Rect2(512, 512, 512, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d8qcs"]
+atlas = ExtResource("10_3h5ed")
+region = Rect2(0, 0, 512, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wbgsd"]
+atlas = ExtResource("10_3h5ed")
+region = Rect2(512, 0, 512, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hai72"]
+atlas = ExtResource("10_3h5ed")
+region = Rect2(0, 512, 512, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fjgol"]
+atlas = ExtResource("10_3h5ed")
+region = Rect2(512, 512, 512, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kaj0d"]
+atlas = ExtResource("11_m0nnb")
+region = Rect2(0, 0, 512, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kohis"]
+atlas = ExtResource("11_m0nnb")
+region = Rect2(512, 0, 512, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5dl8y"]
+atlas = ExtResource("11_m0nnb")
+region = Rect2(0, 512, 512, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1xhq4"]
+atlas = ExtResource("11_m0nnb")
+region = Rect2(512, 512, 512, 512)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_8c1tq"]
 animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7amyn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wqaw4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ah1v1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qhybv")
+}],
+"loop": false,
+"name": &"Attack",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d8qcs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wbgsd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hai72")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fjgol")
+}],
+"loop": false,
+"name": &"CarbUp",
+"speed": 8.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": null
@@ -521,17 +594,20 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_6t13l")
+"texture": SubResource("AtlasTexture_kaj0d")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_mq5f6")
+"texture": SubResource("AtlasTexture_kohis")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_e42xv")
+"texture": SubResource("AtlasTexture_5dl8y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1xhq4")
 }],
 "loop": false,
-"name": &"Fart",
-"speed": 12.0
+"name": &"Slam",
+"speed": 8.0
 }]
 
 [sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_fs5rf"]
@@ -568,22 +644,22 @@ properties/9/replication_mode = 1
 properties/10/path = NodePath(".:animation_locked")
 properties/10/spawn = true
 properties/10/replication_mode = 1
-properties/11/path = NodePath("AbilityResetSprite:animation")
+properties/11/path = NodePath("AimIndicator:position")
 properties/11/spawn = true
 properties/11/replication_mode = 1
-properties/12/path = NodePath("AbilityResetSprite:frame")
+properties/12/path = NodePath(".:carbed_up")
 properties/12/spawn = true
 properties/12/replication_mode = 1
-properties/13/path = NodePath("AimIndicator:position")
+properties/13/path = NodePath(".:carb_up_on_cooldown")
 properties/13/spawn = true
 properties/13/replication_mode = 1
-properties/14/path = NodePath(".:carbed_up")
+properties/14/path = NodePath(".:knocked_back")
 properties/14/spawn = true
 properties/14/replication_mode = 1
-properties/15/path = NodePath(".:carb_up_on_cooldown")
+properties/15/path = NodePath("FartSprite:animation")
 properties/15/spawn = true
 properties/15/replication_mode = 1
-properties/16/path = NodePath(".:knocked_back")
+properties/16/path = NodePath("FartSprite:frame")
 properties/16/spawn = true
 properties/16/replication_mode = 1
 
@@ -591,13 +667,51 @@ properties/16/replication_mode = 1
 radius = 47.0
 height = 216.0
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_i40at"]
+atlas = ExtResource("8_0j2jq")
+region = Rect2(0, 0, 341, 1024)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mnwbt"]
+atlas = ExtResource("8_0j2jq")
+region = Rect2(341, 0, 341, 1024)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gjub3"]
+atlas = ExtResource("8_0j2jq")
+region = Rect2(682, 0, 341, 1024)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_nyoe2"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": null
+}],
+"loop": false,
+"name": &"Default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i40at")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mnwbt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gjub3")
+}],
+"loop": false,
+"name": &"Fart",
+"speed": 12.0
+}]
+
 [node name="Sumo" type="Node2D"]
 
-[node name="CharacterBody2D" type="CharacterBody2D" parent="." node_paths=PackedStringArray("anim_sprite", "ability_anim_sprite", "aim_arrow", "synchronizer", "hitbox", "slam_area") groups=["Player", "Sumo"]]
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." node_paths=PackedStringArray("anim_sprite", "ability_anim_sprite", "fart_anim_sprite", "aim_arrow", "synchronizer", "hitbox", "slam_area") groups=["Player", "Sumo"]]
 z_index = 1
 script = ExtResource("1_502xe")
 anim_sprite = NodePath("AnimatedSprite2D")
 ability_anim_sprite = NodePath("AbilityResetSprite")
+fart_anim_sprite = NodePath("FartSprite")
 aim_arrow = NodePath("AimIndicator")
 synchronizer = NodePath("PlayerSynchronizer")
 hitbox = NodePath("CollisionShape2D")
@@ -623,10 +737,10 @@ sprite_frames = SubResource("SpriteFrames_igmym")
 animation = &"Idle"
 
 [node name="AbilityResetSprite" type="AnimatedSprite2D" parent="CharacterBody2D"]
-position = Vector2(34, 38)
-scale = Vector2(0.1, 0.1)
+position = Vector2(3, 62)
+scale = Vector2(0.2, 0.2)
 sprite_frames = SubResource("SpriteFrames_8c1tq")
-animation = &"Fart"
+animation = &"Attack"
 
 [node name="AimIndicator" type="Node2D" parent="CharacterBody2D"]
 
@@ -643,5 +757,12 @@ position = Vector2(1, 10)
 rotation = 1.5708
 shape = SubResource("CapsuleShape2D_4el8s")
 
+[node name="FartSprite" type="AnimatedSprite2D" parent="CharacterBody2D"]
+position = Vector2(34, 38)
+scale = Vector2(0.1, 0.1)
+sprite_frames = SubResource("SpriteFrames_nyoe2")
+animation = &"Fart"
+
 [connection signal="animation_finished" from="CharacterBody2D/AnimatedSprite2D" to="CharacterBody2D" method="_on_animated_sprite_2d_animation_finished"]
 [connection signal="animation_finished" from="CharacterBody2D/AbilityResetSprite" to="CharacterBody2D" method="_on_ability_reset_sprite_animation_finished"]
+[connection signal="animation_finished" from="CharacterBody2D/FartSprite" to="CharacterBody2D" method="_on_fart_sprite_animation_finished"]

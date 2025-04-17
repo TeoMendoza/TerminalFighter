@@ -13,9 +13,9 @@ func execute(player):
 	player.get_tree().current_scene.add_child(bullet, true)
 	
 	# Adjusts sprite direction to allign the attack animation with the direction of shooting
-	if player_direction.x >= 0 and player.last_facing_direction == "Right":
+	if player_direction.x >= 0 and player.last_facing_direction == "Left":
 		player.anim_sprite.flip_h = false
-	elif player_direction.x < 0 and player.last_facing_direction == "Left":
+	elif player_direction.x < 0 and player.last_facing_direction == "Right":
 		player.anim_sprite.flip_h = true	
 		
 	player.anim_sprite.play("Attack")

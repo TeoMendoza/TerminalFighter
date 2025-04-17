@@ -30,11 +30,15 @@ func execute(player):
 				horizontal_velocity = max(-750, mouse_distance_x) * -2
 				if owner.last_facing_direction == "Left":
 					owner.anim_sprite.flip_h = false
+					owner.fart_anim_sprite.position.x = -34
+					owner.fart_anim_sprite.flip_h = true
 				
 			elif mouse_distance_x > 0:
 				horizontal_velocity = min(750, mouse_distance_x) * -2
 				if owner.last_facing_direction == "Right":
 					owner.anim_sprite.flip_h = true
+					owner.fart_anim_sprite.position.x = 34
+					owner.fart_anim_sprite.flip_h = false
 			
 		
 func process_slam(player, delta):
@@ -65,6 +69,7 @@ func end_slam(player):
 	owner.is_using_ability = false
 	await owner.get_tree().create_timer(cooldown).timeout
 	owner.slam_on_cooldown = false
+	owner.ability_anim_sprite.play("Slam")
 		
 func end_horizontal_momentum():
 	owner.velocity.x = 0
