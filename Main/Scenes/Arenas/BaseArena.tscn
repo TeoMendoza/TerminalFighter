@@ -1,10 +1,9 @@
-[gd_scene load_steps=26 format=3 uid="uid://pm0mr0rp4ch5"]
+[gd_scene load_steps=25 format=3 uid="uid://pm0mr0rp4ch5"]
 
 [ext_resource type="Script" path="res://Main/Scenes/Arenas/Arena.gd" id="1_14gj0"]
 [ext_resource type="Script" path="res://Main/Scenes/Arenas/BulletSpawner.gd" id="2_gvfsh"]
 [ext_resource type="Texture2D" uid="uid://4261bhlqlr1y" path="res://MapDecoration/Gateway.tres" id="2_ttjn4"]
 [ext_resource type="Texture2D" uid="uid://c6218cq8gw2xa" path="res://Ninja/Assets/shuriken.png" id="5_bvnpr"]
-[ext_resource type="Texture2D" uid="uid://doaqh42h1l85e" path="res://Sumo/Assets/Sumo.png" id="5_ds6p4"]
 [ext_resource type="Texture2D" uid="uid://cbvew8bm4gun8" path="res://MapDecoration/1.png" id="6_g7khi"]
 [ext_resource type="Texture2D" uid="uid://dube4174bstss" path="res://MapDecoration/2.png" id="7_a6wdi"]
 [ext_resource type="Texture2D" uid="uid://dwdcq2qtwfjo1" path="res://MapDecoration/3.png" id="8_ep4cl"]
@@ -112,16 +111,11 @@ _spawnable_scenes = PackedStringArray("res://Ninja/Scenes/Ninja.tscn", "res://Su
 spawn_path = NodePath("..")
 spawn_limit = 1
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(52, 62)
-scale = Vector2(0.1, 0.1)
-texture = ExtResource("5_ds6p4")
-
 [node name="Backgrounds" type="Node2D" parent="."]
 
 [node name="Top" type="Sprite2D" parent="Backgrounds"]
 z_index = -5
-position = Vector2(630, 380)
+position = Vector2(629, 379)
 scale = Vector2(4.52656, 5.85)
 texture = ExtResource("6_g7khi")
 

@@ -1,12 +1,26 @@
 from flask import Flask, request, jsonify
-
+import socket
 app = Flask(__name__)
 
 host_queue = []
 
+def get_lan_ip():
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    try:
+        s.connect(("8.8.8.8", 80))
+        ip = s.getsockname()[0]
+    except Exception:
+        ip = "127.0.0.1"
+    finally:
+        s.close()
+    return ip
+
 @app.route('/look_for_host', methods=["GET", 'POST'])
 def look_for_host():
     client_ip = request.remote_addr
+    # If the host registers via localhost, swap it for the real LAN IP
+    if client_ip in ("127.0.0.1", "::1"):
+        client_ip = get_lan_ip()
 
     if host_queue:
         host_ip = host_queue.pop(0)
