@@ -42,7 +42,7 @@ func host_game(selected_character: String):
 
 # Joins server
 func join_game(selected_character) -> bool:
-	var url = "http://10.150.143.100:12345/look_for_host"
+	var url = "http://10.0.0.191:12345/look_for_host";
 	# Step 1: Send request
 	var err = http_request.request(url, [], HTTPClient.METHOD_POST)
 	if err != OK:
