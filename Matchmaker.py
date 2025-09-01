@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 host_queue = []
 
-@app.route('/look_for_host', methods=['POST'])
+@app.route('/look_for_host', methods=["GET", 'POST'])
 def look_for_host():
     client_ip = request.remote_addr
 
