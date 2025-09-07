@@ -95,7 +95,7 @@ The Ninja excels in evasion, counterplay, and quick repositioning. Light but dea
 
 ---
 
-###� Sumo — Heavy, Durable, and Punishing
+### Sumo — Heavy, Durable, and Punishing
 
 The Sumo thrives on close-range pressure and rewards patient, reactive play. Great for those who want to control the fight.
 
