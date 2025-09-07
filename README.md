@@ -1,18 +1,18 @@
-# 🥋 Terminal Fighter
+# Terminal Fighter
 
 A local multiplayer 2D fighting game built in Godot. Choose your fighter, match with a friend over LAN, and battle it out using distinct abilities. The game features two unique characters, responsive controls, and an in-house matchmaking system for playing.
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Start the Matchmaking Server
 
-Before launching the game, you must run the included matchmaking server.
+Before launching the game, you must run the included matchmaking server. You will need to adjust the **URL** variable in the **Join Game** function in the **Main.gd** script to ensure connections can be made.
 
 - Make sure you have **Python** and **Flask** installed.
 
-> 🔗 **Note:** This server currently supports **LAN (same network)** connections only.
+> **Note:** This server currently supports **LAN (same network)** connections only.
 
 ---
 
@@ -24,11 +24,11 @@ Open **Terminal Fighter** in Godot or run the exported binary. From the main men
 - Once selected, you may **search for a match**. You’ll be locked into this character for the match until returning to the main menu.
 - The game will **connect you to an available opponent automatically**.
 
-✅ After each match, you’ll be returned to the lobby. There’s no need to restart the game or server — just find a new match and play again!
+After each match, you’ll be returned to the lobby. There’s no need to restart the game or server, just find a new match and play again!
 
 ---
 
-## 🧠 Additional Tips
+## Additional Tips
 
 - If performance becomes sluggish, check your network connection.
 - Restarting both the matchmaking server and game client can help resolve any temporary issues.
@@ -36,13 +36,13 @@ Open **Terminal Fighter** in Godot or run the exported binary. From the main men
 
 ---
 
-## 🧍‍♂️ Character Overviews
+## Character Overviews
 
 Each fighter in **Terminal Fighter** comes with a unique playstyle, stats, and abilities. While all characters share some basic rules and structure, their differences create dynamic and strategic matchups.
 
 ---
 
-### 🧩 Shared Traits
+### Shared Traits
 
 - **Health:** All characters start with 120 HP.
 - **Abilities:** Each character has 1 passive ability and 2 active abilities (bound to `E` and `Right Mouse Button`/`F`).
@@ -66,7 +66,7 @@ Each fighter in **Terminal Fighter** comes with a unique playstyle, stats, and a
 
 ---
 
-### 🥷 Ninja — Mobile, Agile, and Outplay-Focused
+### Ninja — Mobile, Agile, and Outplay-Focused
 
 The Ninja excels in evasion, counterplay, and quick repositioning. Light but deadly in the right hands.
 
@@ -95,7 +95,7 @@ The Ninja excels in evasion, counterplay, and quick repositioning. Light but dea
 
 ---
 
-### 💪 Sumo — Heavy, Durable, and Punishing
+###� Sumo — Heavy, Durable, and Punishing
 
 The Sumo thrives on close-range pressure and rewards patient, reactive play. Great for those who want to control the fight.
 
@@ -109,10 +109,12 @@ The Sumo thrives on close-range pressure and rewards patient, reactive play. Gre
 - Temporary 1.5-second speed boost.  
 - Incoming damage reduced to 10 flat per projectile.  
 - Can be used while other abilities are active.
+- **Reset animation:** Bones
 
 #### Ability 2 — Slam (`E`)
 
 - Aerial-only move. Slams the ground and stuns/knocks back enemies.
+- **Reset animation:** Earthquake (Rocks)
 
 **Types of Slams:**
 
@@ -124,17 +126,18 @@ The Sumo thrives on close-range pressure and rewards patient, reactive play. Gre
 
 - Slower but heavier projectile.  
 - **Damage:** 30
+- **Reset animation:** Coins
 
 ---
 
-## ✍️ Developer's Note
+## Developer's Note
 
 Hey there! Thanks for checking out **Terminal Fighter**.
 
 This project began in February as a side passion while balancing two jobs and full-time school. Progress was slow at first, but over spring break I finally found the time to build out the first character, The Ninja, and implement online play. The second character, The Sumo, came together much faster thanks to that early groundwork.
 
-Though I’ve poured a lot into this project, I’m now stepping away to start something new — a **narrative-driven 3D Murder Mystery** project I'm building with a close friend. It's a big shift from this game, but I’m excited about where it’s going.
+Though I’ve poured a lot into this project, I’m now stepping away to start something new, **3D Free For All Fighter Game Built With Unity & Spacetime DB**. It's quite a big step up from this game, but I’m excited about where it’s going. 
 
-**Stay tuned, and most importantly, enjoy playing! 🙌**
+**Stay tuned enjoy playing!**
 
 — Teo
