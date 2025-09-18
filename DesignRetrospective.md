@@ -54,8 +54,8 @@ Key inspirations included *Super Smash Bros* and *Multiversus*. Unlike those tit
 
 ## 6. Iterations & Trade-offs
 - **Ability reworks:**  
-  - Early Goblin kit included a rock slam projectile, but it overlapped too heavily with Goblin Slam and made the character feel one-dimensional. Cutting it forced the kit to diversify.  
-  - Ninja originally had Double Jump as an active ability, but it limited design space when paired with Dash. I shifted Double Jump into a **passive** and introduced **Block** as a second active ability, giving the kit more versatility and outplay potential.  
+  - An early version of The Goblin included a rock projectile, but it overlapped too heavily with Goblin Slam and made the character feel one-dimensional. Cutting it forced the kit to diversify.  
+  - The Ninja originally had Double Jump as an active ability, but it limited design space when paired with Dash. I shifted Double Jump into a passive and introduced Block as a second active ability, giving the kit more versatility and outplay potential.  
 - **Playtesting approach:** Initially I built too much before testing, resulting in tangled issues. Switching to small, iterative tests (one friend at a time, per ability) gave clearer, more actionable feedback.  
 - **HUD trade-off:** I compromised with cooldown effects around characters, but they were neither clear nor satisfying. This taught me the importance of sound and visual UX in minimal HUD designs.  
 - **Scope cuts:** I planned five characters but shipped two. The lack of modular systems and exponential interactions between abilities made additional characters unrealistic within scope.  
