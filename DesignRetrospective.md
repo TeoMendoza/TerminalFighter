@@ -1,5 +1,3 @@
-# Terminal Fighter - Design Retrospective
-
 ## 1. Overview
 Terminal Fighter was my first complete game project, developed over six weeks in Spring 2024. It’s a 2D multiplayer fighting game featuring two unique characters, each with a distinct kit of abilities. 
 
@@ -77,5 +75,4 @@ Key inspirations included *Super Smash Bros* and *Multiversus*. Unlike those tit
 - Revisit HUD design with minimal but clear visual/audio cues.  
 - Expand character roster on a modular foundation to enable diverse matchups.  
 
-**Legacy:**  
-Although Terminal Fighter itself is complete, it directly informed my current project: a 3D FFA Fighter with server authority and deeper system planning. Terminal Fighter served as the foundation for my growth in both design thinking and technical execution.  
+**Legacy:** Although Terminal Fighter itself is complete, it directly informed my current project: a 3D FFA Fighter with server authority and deeper system planning. Terminal Fighter served as the foundation for my growth in both design thinking and technical execution.  
