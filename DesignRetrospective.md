@@ -24,18 +24,18 @@ Key inspirations included *Super Smash Bros* and *Multiversus*. Unlike those tit
 #### Ninja
 - **Concept:** A fast, agile character built around mobility and outplay potential.  
 - **Abilities:**  
-  - **Passive:** Double Jump – improves mobility and outplay potential.  
-  - **Active 1:** Dash – can be used aggressively to close distance or defensively to escape.  
-  - **Active 2:** Block – a versatile tool that turns defense into offense, enabling counterplay.  
+  - **Passive:** Double Jump - improves mobility and outplay potential.  
+  - **Active 1:** Dash - can be used aggressively to close distance or defensively to escape.  
+  - **Active 2:** Block - a versatile tool that turns defense into offense, enabling counterplay.  
 - **Strengths:** Can bait opponents into bad positions, then capitalize with quick movement and reactive abilities. Offers high skill expression for advanced players.  
 - **Weaknesses:** Low damage output makes it difficult to finish opponents. Requires consistent, well-timed ability use to stay competitive, which can feel unrewarding for casual players.  
 
 #### Goblin
 - **Concept:** A reckless, high-damage character with a chaotic, energetic playstyle.  
 - **Abilities:**  
-  - **Passive:** Last Stand – when below 25% HP, gains a permanent speed increase. This makes him more mobile in late fights and enhances punish potential with abilities like Slam.  
-  - **Active 1:** Slam – a high-impact, stun-heavy ability for punishing opponents.  
-  - **Active 2:** Carb Up – temporarily reduces incoming damage and boosts movement speed, allowing reckless but forgiving play.  
+  - **Passive:** Last Stand - when below 25% HP, gains a permanent speed increase. This makes him more mobile in late fights and enhances punish potential with abilities like Slam.  
+  - **Active 1:** Slam - a high-impact, stun-heavy ability for punishing opponents.  
+  - **Active 2:** Carb Up - temporarily reduces incoming damage and boosts movement speed, allowing reckless but forgiving play.  
 - **Strengths:** Feels powerful and fun to play. The kit is forgiving to less technical players, while still enabling fast-paced punishes for skilled ones. Carb Up gives him strong defensive flexibility, and the passive ensures exciting comebacks.  
 - **Weaknesses:** Relatively stationary outside of Carb Up and passive speed buff. Vulnerable once abilities are on cooldown. Has fewer creative outplay options compared to Ninja, which limited his long-term depth.  
 
