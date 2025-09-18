@@ -1,69 +1,85 @@
-# Terminal Fighter – Design Retrospective
+# Terminal Fighter - Design Retrospective
 
 ## 1. Overview
-- **Project Name:** Terminal Fighter  
-- **Timeline:** Spring 2024, ~6 weeks 
-- **Scope:** 2D multiplayer fighting game with two playable characters  
-- **Primary Goal:** My first complete game project; explore fighting games & combat systems, and gain experience shipping a playable build.
+Terminal Fighter was my first complete game project, developed over six weeks in Spring 2024.  
+It’s a 2D multiplayer fighting game featuring two unique characters, each with a distinct kit of abilities.  
 
----
+My primary goal was to explore the fundamentals of fighting game design, fast-paced combat loops, character kits, and moment-to-moment decision making, while gaining the experience of fully shipping a playable build.  
 
 ## 2. Design Goals & Intent
-- What experience did I want players to have? Answer: I wanted players to have a simple but high skill ceiling fighting game that takes very short to play, that they can play with those around them.
-- What inspirations or references did I draw from? Answer: I drew inspiration from games like Super Smash Bros and Multiversus.
-- What problem was I trying to solve? I wanted to design a game that felt simple enough to have fun with a basic understanding of the character abilities, but also with enough depth that players could learn the mechanics and kits well and play extremeley complex and high skill gameplay. I also wanted a visually minimal game with minimal use of a HUD or other static display visuals.
+I wanted players to experience a fighting game that felt simple to learn but rewarding to master. Matches should be short and accessible to casual players, while also offering enough depth to support high-skill play.  
 
----
+Key inspirations included *Super Smash Bros* and *Multiversus*. Unlike those titles, I aimed for a visually minimal design with little to no HUD, relying instead on in-game effects and character feedback for clarity.  
 
-## 3. Core Systems / Mechanics
+## 3. Core Systems & Mechanics
+
 ### Combat Loop
-- **Description:** (How does the attack/defend/exchange cycle work?) Each character has a basic attack that pairs with their mobility stats like speed, jump height, hitbox, etc. The basic attack is complemented by some of the abilities in their kit, allowing for agrresive plays, or for reckless attacks that they can escape consequences with minimal scrtaches. Additionally, these abilities typically are multi purpose, and can be cleverly used defensively in many ways. The map also plays a role in how matches play out, as players can play around the map obstacles to help them both offensively and defensively.
-- **Reasoning:** Given that there are only 2 characters, I avoided making one character have a strict advantage over the other. In other games with larger character pools, or team based fighters, counter picks are a strategic implmentation by devs to constantly have evolving gameplay. However, in this games case, the limited selection of 2 character would have made no sense for a clear advantage for one character against the other. For this reasoning, both characters have unique but equally strong offensive and defensive capabilities, granted they use their kit correctly. 
+- Each character has a basic attack paired with mobility stats (speed, jump height, hitbox).  
+- Abilities are multi-purpose tools, usable both offensively and defensively.  
+- The map introduces additional strategy, obstacles can be leveraged for positioning, pressure, or defense.  
+
+**Design Reasoning:**  
+With only two characters, I avoided creating counter-pick scenarios. Instead, both kits were built with equally strong offensive and defensive options, ensuring that matchups came down to execution rather than inherent advantage.  
 
 ### Characters
-- **Character A - Ninja
-  - **Concept:** This character fulfills a tricky, fast paced, and mobile character with high outplay potential. 
-  - **Strengths:** The ninja is very movement based, allowing for outplays by baiting opponents into bad scenarios, then using their movement to take advantage of the situation. Additionally, the ninja's kit allows for high level outplays by using the opponents attacks against them.
-  - **Weaknesses:** The ninja while fast and mobile, is a very weak character, from a damage perspective. The ninja relies on consistent well timed use of abilities to rack up damage. However, it  takes multiple sets of attacks to finish opponents, making the ninja difficult to fully capitalize on. This additionally can feel a bit unrewarding for players who make good outplays.
-- **Character B:** Goblin
-- **Concept:** This character fulfills the fun and high-impact/damage character that can be used quite recklessly.
-  - **Strengths:** The Goblin is very high energy and fun, the abilities allow for a mix of sudden attacks and quick punishes on opponents. Additionally, it can be a good pick for players wiht lower technical skill as the goblins kit allows for a bit more protection/counter play against attempted aggression.
-  - **Weaknesses:** The Goblin is relatively stationary and while reckless and fun, requires patience & skill to be used effectively. A big pitfall is that once out of abilities, the Goblin has minimal movement to rely on, meaning if an opponent can bait out the Goblins abilities, he can feel somewhat helpless. Additionally, the Goblin has only one ability that feels aggresive and that has outplay potential, compared to the Ninja's 2. While the Goblins ability has 3 different behaviors, it still feels a tad limiting when the core of the usecase is the same.
 
+#### Ninja
+- **Concept:** A fast, agile character built around mobility and outplay potential.  
+- **Abilities:**  
+  - **Passive:** Double Jump - improves mobility and outplay potential.  
+  - **Active:** Dash and Block - versatile tools for both offense and defense.  
+- **Strengths:** Can bait opponents into bad positions, then capitalize with quick movement and reactive abilities. Offers high skill expression for advanced players.  
+- **Weaknesses:** Low damage output makes it difficult to finish opponents. Requires consistent, well-timed ability use to stay competitive, which can feel unrewarding for casual players.  
 
----
+#### Goblin
+- **Concept:** A reckless, high-damage character with a chaotic, energetic playstyle.  
+- **Abilities:**  
+  - Slam - high-impact damage ability.  
+  - Additional punishing abilities for sudden aggression.  
+- **Strengths:** Feels powerful and fun to play. Can punish opponents quickly and protect less experienced players from being overwhelmed.  
+- **Weaknesses:** Relatively stationary; becomes vulnerable once abilities are spent. Has fewer creative outplay options compared to Ninja, which limited its long-term depth.  
 
 ## 4. Strengths (What Worked)
-- Which mechanics or systems achieved the intended goals? I think that the abilities in the game reached the goals I wanted. They each fulfill their purpose well and constantly allow for high skill plays, something that fee;s extremeley rewarding for players. Additionally, I think the ability design complimented the rest of the characters abilities, forming unique playstyles per character. Additionally, the ability sets felt like ach one had advantages and disadvantages, and each set of character picks in a 1 v 1 felt unique from a gameplan perspective
-- What moments in playtests felt fun, fair, or rewarding? I think effectively using character abilities and outplaying opponents was an extremeley fun moment during playtesting. They felt impactful, but not so overpowered that they were game ending. I really enjoyed additionally that the Time To Kill being slightly higher worked out well, feeling as though even when outplayed, you can still comeback, making it feel like a back and forth high tension fight, rather than a whoever hits first wins.
-- Any feedback that validated these choices? Many of my friends and some other acquaintences withing my Computer Science classes played the game, both with me and others. All of them agreed with me and really enjoyed the abilities, both the uniqueness, skill ceiling, and overall polish to how they felt.
-
----
+- **Abilities felt rewarding** — testers consistently enjoyed using abilities to outplay opponents. Kits complemented mobility and created distinct playstyles.  
+- **Time-to-kill was well-balanced** — matches felt tense, with comeback potential even after mistakes. This created a satisfying back-and-forth rather than “first hit wins.”  
+- **Playtest validation** — friends and classmates praised the uniqueness and polish of abilities, noting the high skill ceiling and satisfying outplay potential.  
 
 ## 5. Weaknesses (What Didn’t Work)
-- Which mechanics didn’t land as expected? I think the attack mechanic could have been improved. Initially, I had imagined abilities as a method to create scenarios where attacks could get damage. What this means is that characters can shoot a single "attack" every couple seconds, with it being high damage. My goal was to make players use their abiltieis intelligently and then reward themselves with a high damage attack. However, this did not pan as I had wished. I think while the abilities were extremely fun and felt very fast paced and well though out, the single attack felt unresponsive in a way. It felt very sluggish, slow, and also unsatisfying in every single scenario that was not damage on your opponent. Additionally, it felt very bad to get outplayed then lose 1/4 - 1/3 of your health typically. I believe that a lower damage, clip based attack system would have been much more effective in keeping the fast paced feeling, while balancing the negative feeling of getting hit and still allowing for outplays to feel punishing.
-- Where did players struggle (e.g. controls, clarity, balance)? Players struggled to remember what abilities & attacks were available / cooldowns. My idea of making a game without a HUD I still believe had merit, I just did not fully make the systems well enough to make sure that no HUD was effective. The way I had implemented it was through effects that play at the feet of the player, to signal something was available again. There were 3 issues with this that made it difficult to interpret. First, it took players a while to understand which effect linked to which ability. Second, the effects themselves were poorly made and needed more uniqueness and better polish to be more effective. Third, and I think most problematic, there were no sounds. I think while the visual indicator could have been helpful, the biggest tool players would have needed to understand it was sound. Sound doesn't require the viewing of the visual indicator, and it can also help players link ability usage & effects much better.
-- Which design constraints (time, tools, knowledge) limited execution? Given that Terminal Fighter was my first shipped game, and I was still newer to Game Design & Development, I made many crucial mistakes that were hard to get around. First of all, I had chosen a multiplayer game, with no knowledge of how difficult multiplayer games were to develop. Due to this, I had done minimal planning, thinking I could learn on the job and take it much more iteravly than was actually possible. Additionally, due to my inexpirience, I did not set up very effective and modular systems for expanding past 2 characters within the game, paired with the difficulties with multiplayer, it created many constraints that stopped me from adding more characters. Additionally, related to multiplayer again, I had made the game client authoritative which causes mismatches in gameplay across players, which can feel frustrating and poorly made. Many of these choices would have required a tear down to build back up, and so I chose to take what I learned into my future projects.
-
----
+- **Basic attack design** — intended as a high-damage reward after smart ability use, but it felt sluggish and punishing. A lower-damage, clip-based system would have better matched the game’s fast pace.  
+- **HUD-free readability** — while immersive in concept, the cooldown effects at player feet were difficult to interpret. Problems included:  
+  - Linking effects to specific abilities was unintuitive.  
+  - Visual polish was lacking, reducing clarity.  
+  - No audio feedback, which left players guessing.  
+- **Development constraints** — as my first shipped game, I underestimated the complexity of multiplayer. Using client authority caused desync issues, making features like bullet drop impractical. The lack of modular systems also prevented me from expanding beyond two characters.  
 
 ## 6. Iterations & Trade-offs
-- What changes did I make during development? I iterated and tested many of the cahracter abiltiies extensively. The initial character kits were very different from the ones that were shipped. Additionally, I had soon after starting, took time to attempt to make my systems modular (as well as I could), so that future development was easier. Lastly, I had slowly learned the power in play testing as I developed, initially my plan was to set up the characters, then bug fix, the playtest, which I learned caused too much collatorel damage and caused lots of headaches because of tearing and building things back up. I switched to a much more thoughful and baby steps process which made developing much easier. I also took larger breaks to test combiantions of features, to make sure that as a whole, things were coming along and meshing together well. 
-- What compromises were made (simplicity vs depth, speed vs polish)? Due to the difficulties of setting up server authoritative games, I had opted for client authoritative gameplay, which caused many gameplay mismatches and amde gameplay at times feel unresponsive. However this was a choice I made as I was completely in the dark for how to set up server authoritative gameplay, and I wanted to ship a game for the first time so I chose the faster route. This caused many issues, especially with bullets, where I would have liked for there to be a more skillfull bullet drop system, but due to the client side differencfes, it was a way too noticeable and almost unplayble difference. So i comprimised with bbullets that had no bullet drop. Additionally, the no HUD system wasn't always as strict as before, I knew I didn't want like a classic HUD bar, but that I thought all indicators could live around the player sprite. This proved to be innefective, if they were too small you couldn't tell what was happening, if they were too big, it was hard to focus and you couldn't see the actual gameplay. So, this is where I compromised on the cooldown effects that played when an attack/ability was ready. Lastly, I had a timeline for the game, which pressured me to finish before Summer 2025, a cause to this, many features, logic, etc, are impelemented in sub optimal ways, and would have benefited from longer thinking on the actual systems to develop them.
-- What features were cut, and why? Many characters I had wanted to add were cut. A good chunk of my free time was me day dreaming about really cool characters and the different matchups and outplays they could do on other characters. So much so that I had planned for about 5 characters to be added, even after I had only added 1 character fully implemented. Due to my oversight in not creating modular code and systems, and my overly ambitious timeline, I had to cut the implementation of 3/5 cahracters I wanted to create. Another reason was the intertwined web of possiblities that grow as new abilities are added, because they have to interact with each other character, and have to adjust for character specific scenarios, which made the amounbt of code to write increase exponentially. 
-
----
+- **Ability reworks:**  
+  - Early Goblin kit included a rock slam projectile, but it overlapped too heavily with Goblin Slam and made the character feel one-dimensional. Cutting it forced the kit to diversify.  
+  - Ninja originally had Double Jump as an active ability, but it limited design space when paired with Dash. I shifted Double Jump into a **passive** and introduced **Block** as a second active ability, giving the kit more versatility and outplay potential.  
+- **Playtesting approach:** Initially I built too much before testing, resulting in tangled issues. Switching to small, iterative tests (one friend at a time, per ability) gave clearer, more actionable feedback.  
+- **HUD trade-off:** I compromised with cooldown effects around characters, but they were neither clear nor satisfying. This taught me the importance of sound and visual UX in minimal HUD designs.  
+- **Scope cuts:** I planned five characters but shipped two. The lack of modular systems and exponential interactions between abilities made additional characters unrealistic within scope.  
 
 ## 7. Lessons Learned
-- Key insights about **game design principles** Auditory & Visual UI/UX are essential and compliment eachothers faults extremeley well. Plan core systems early and ensure a strong modular base that allows for creative and ambitious features and mechanics. IT can be easy to think of all the cool things a mechanic or feature can do, but it;s important to not get caught up in the things it can do too much, its important to take a step back and also look at the negatives it can have, and balancing the positives and negatives. Playtesting and iteration are extremeley important, from both your perspective, and an outside perspective. Consistency, combinations of game mechanics, from any lens, whether thematics, pacing, genre, etc, should all have a well though out web of connections. They either need to compliment or contrast eachother intentionally, if they feel mismatched, the game can feel lackluster, so its important to look at all the intertwined interactions of all parts of the game mechanics, even oujtside of the mechanics intended target. 
-- Technical or production lessons (e.g. “collision detection debugging taught me X”). I learned the difficulty in creating multiplayer games. It was extremeley difficult to effectively test bugs, add new features, compensate for lag, etc.
-- Personal growth (e.g. “this project taught me the value of scoping small and finishing”). I learned so much about myself and games throughout this process. I learned to value pre planning and having a systematic and modular approach to building a game. Additionally, I learned that it can be easy to get over ambitious with cool ideas, and that it is important to set realistic milestones and not overshoot, as it can end up causing delays in development, and worse end products than if you had focused on core parts of the game. I also learned how important the connection of UI/UX is to making a game feel good. YOu could have the best game mechanics in the world, colest ablities, etc, but if they are not effectively communicated to players, they mean nothing. Mechanics must have value, obviously, but also have a method for extracting that value, that is smooth and with little resistance. 
+- **Design principles:**  
+  - Auditory and visual feedback must complement each other; one without the other undermines clarity.  
+  - Modular, well-planned systems are essential for scalability.  
+  - Every mechanic must consider both positives and negatives; trade-offs make systems interesting.  
+  - Playtesting early and often is invaluable. Iteration is smoother when feedback arrives in small, focused batches.  
+- **Technical lessons:**  
+  - Multiplayer development is far more complex than expected. Client authority causes issues with fairness and feel; server authority, while harder, is the right long-term choice.  
+- **Personal growth:**  
+  - Scope realistically — finishing a smaller, polished game is more valuable than overreaching.  
+  - UI/UX is as important as mechanics. Even great abilities feel flat if they aren’t communicated effectively.  
 
 ---
 
 ## 8. Future Work
-- If I revisited Terminal Fighter, what would I add or refine? I would try and redesign Terminal Fighter with server authoritative gameplay. I additionally wuld take the time to plan out effective and nuanced system design, to ensure that expanding the project is smooth and not error prone.
-- Could this prototype evolve into a bigger project? In a way, it has! My current project, 3D brawler, is an extension of this idea, now in 3D and with server authoritative gameplay, and extensive systems and game design planning
-- What questions remain for me as a designer after building it? How can the things I learned from building terminal fighter transfer to creating games in other genres apart from fighting/combat games.
+- **Redesign with server authority** to improve responsiveness and fairness.  
+- **Revisit HUD design** with minimal but clear visual/audio cues.  
+- **Expand character roster** on a modular foundation to enable diverse matchups.  
+
+**Legacy:**  
+Although Terminal Fighter itself is complete, it directly informed my current project: a 3D physics-based brawler with server authority and deeper system planning. Terminal Fighter served as the foundation for my growth in both design thinking and technical execution.  
 
 ---
