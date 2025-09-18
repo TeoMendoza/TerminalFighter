@@ -40,17 +40,17 @@ Key inspirations included *Super Smash Bros* and *Multiversus*. Unlike those tit
 - **Weaknesses:** Relatively stationary outside of Carb Up and passive speed buff. Vulnerable once abilities are on cooldown. Has fewer creative outplay options compared to Ninja, which limited his long-term depth.  
 
 ## 4. Strengths (What Worked)
-- **Abilities felt rewarding** — testers consistently enjoyed using abilities to outplay opponents. Kits complemented mobility and created distinct playstyles.  
-- **Time-to-kill was well-balanced** — matches felt tense, with comeback potential even after mistakes. This created a satisfying back-and-forth rather than “first hit wins.”  
-- **Playtest validation** — friends and classmates praised the uniqueness and polish of abilities, noting the high skill ceiling and satisfying outplay potential.  
+- **Abilities felt rewarding** - testers consistently enjoyed using abilities to outplay opponents. Kits complemented mobility and created distinct playstyles.  
+- **Time-to-kill was well-balanced** - matches felt tense, with comeback potential even after mistakes. This created a satisfying back-and-forth rather than “first hit wins.”  
+- **Playtest validation** - friends and classmates praised the uniqueness and polish of abilities, noting the high skill ceiling and satisfying outplay potential.  
 
 ## 5. Weaknesses (What Didn’t Work)
-- **Basic attack design** — intended as a high-damage reward after smart ability use, but it felt sluggish and punishing. A lower-damage, clip-based system would have better matched the game’s fast pace.  
-- **HUD-free readability** — while immersive in concept, the cooldown effects at player feet were difficult to interpret. Problems included:  
+- **Basic attack design** - intended as a high-damage reward after smart ability use, but it felt sluggish and punishing. A lower-damage, clip-based system would have better matched the game’s fast pace.  
+- **HUD-free readability** - while immersive in concept, the cooldown effects at player feet were difficult to interpret. Problems included:  
   - Linking effects to specific abilities was unintuitive.  
   - Visual polish was lacking, reducing clarity.  
   - No audio feedback, which left players guessing.  
-- **Development constraints** — as my first shipped game, I underestimated the complexity of multiplayer. Using client authority caused desync issues, making features like bullet drop impractical. The lack of modular systems also prevented me from expanding beyond two characters.  
+- **Development constraints** - as my first shipped game, I underestimated the complexity of multiplayer. Using client authority caused desync issues, making features like bullet drop impractical. The lack of modular systems also prevented me from expanding beyond two characters.  
 
 ## 6. Iterations & Trade-offs
 - **Ability reworks:**  
@@ -69,7 +69,7 @@ Key inspirations included *Super Smash Bros* and *Multiversus*. Unlike those tit
 - **Technical lessons:**  
   - Multiplayer development is far more complex than expected. Client authority causes issues with fairness and feel; server authority, while harder, is the right long-term choice.  
 - **Personal growth:**  
-  - Scope realistically — finishing a smaller, polished game is more valuable than overreaching.  
+  - Scope realistically - finishing a smaller, polished game is more valuable than overreaching.  
   - UI/UX is as important as mechanics. Even great abilities feel flat if they aren’t communicated effectively.  
 
 ## 8. Future Work
