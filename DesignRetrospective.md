@@ -1,7 +1,9 @@
 # Terminal Fighter - Design Retrospective
 
 ## 1. Overview
-Terminal Fighter was my first complete game project, developed over six weeks in Spring 2024. It’s a 2D multiplayer fighting game featuring two unique characters, each with a distinct kit of abilities. My primary goal was to explore the fundamentals of fighting game design, fast-paced combat loops, character kits, and moment-to-moment decision making, while gaining the experience of fully shipping a playable build.  
+Terminal Fighter was my first complete game project, developed over six weeks in Spring 2024. It’s a 2D multiplayer fighting game featuring two unique characters, each with a distinct kit of abilities. 
+
+My primary goal was to explore the fundamentals of fighting game design, fast-paced combat loops, character kits, and moment-to-moment decision making, while gaining the experience of fully shipping a playable build.  
 
 ## 2. Design Goals & Intent
 I wanted players to experience a fighting game that felt simple to learn but rewarding to master. Matches should be short and accessible to casual players, while also offering enough depth to support high-skill play.  
