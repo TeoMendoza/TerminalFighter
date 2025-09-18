@@ -31,7 +31,7 @@ Key inspirations included *Super Smash Bros* and *Multiversus*. Unlike those tit
 #### Goblin
 - **Concept:** A reckless, high-damage character with a chaotic, energetic playstyle.  
 - **Abilities:**  
-  - **Passive:** Last Stand - when below 25% HP, gains a permanent speed increase. This makes him more mobile in late fights and enhances punish potential with abilities like Slam.  
+  - **Passive:** Comeback Tank - when below 25% HP, gains a permanent speed increase. This makes him more mobile in late fights and enhances punish potential with abilities like Slam.  
   - **Active 1:** Slam - a high-impact, stun-heavy ability for punishing opponents.  
   - **Active 2:** Carb Up - temporarily reduces incoming damage and boosts movement speed, allowing reckless but forgiving play.  
 - **Strengths:** Feels powerful and fun to play. The kit is forgiving to less technical players, while still enabling fast-paced punishes for skilled ones. Carb Up gives him strong defensive flexibility, and the passive ensures exciting comebacks.  
