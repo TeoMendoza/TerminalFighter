@@ -17,8 +17,7 @@ Key inspirations included *Super Smash Bros* and *Multiversus*. Unlike those tit
 - Abilities are multi-purpose tools, usable both offensively and defensively.  
 - The map introduces additional strategy, obstacles can be leveraged for positioning, pressure, or defense.  
 
-**Design Reasoning:**  
-With only two characters, I avoided creating counter-pick scenarios. Instead, both kits were built with equally strong offensive and defensive options, ensuring that matchups came down to execution rather than inherent advantage.  
+**Design Reasoning:** With only two characters, I avoided creating counter-pick scenarios. Instead, both kits were built with equally strong offensive and defensive options, ensuring that matchups came down to execution rather than inherent advantage.  
 
 ### Characters
 
