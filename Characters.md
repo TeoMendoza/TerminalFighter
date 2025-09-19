@@ -29,26 +29,26 @@ Each fighter in Terminal Fighter comes with a unique playstyle, stats, and abili
 
 The Ninja is a swift fighter who thrives on mobility, counterplay, and clever repositioning. Built for players who enjoy fast paced duels, he excels at slipping past attacks, baiting opponents into mistakes, and punishing with speed and precision. While his damage output is modest compared to heavier fighters, his versatile kit rewards patience, creativity, and mechanical mastery. In skilled hands, the Ninja can dance around slower enemies and turn small openings into decisive advantages, but careless play leaves him fragile and exposed.
 
-#### Ability Set
+### Ability Set
 
-#### Passive - Double Jump
-- Refreshes whenever you touch the ground.
+- **Passive - Double Jump**
+  - Refreshes whenever you touch the ground.
   
-#### Ability 1 - Dash (`E`)
-- Invulnerable dash in your movement direction.  
-- Can phase through attacks and abilities, but not through solid objects or players.  
-- Reset animation: Smoke cloud
+- **Ability 1 - Dash (`E`)**
+  - Invulnerable dash in your movement direction.  
+  - Can phase through attacks and abilities, but not through solid objects or players.  
+  - Reset animation: Smoke cloud
 
-#### Ability 2 - Block (`Right Mouse Button` / `F`)
-- Reflect incoming projectiles only if facing them.  
-- Movement is slowed during block.  
-- Perfect for baits and aggressive parries.  
-- Reset animation: Sparks
+- **Ability 2 - Block (`Right Mouse Button` / `F`)**
+  - Reflect incoming projectiles only if facing them.  
+  - Movement is slowed during block.  
+  - Perfect for baits and aggressive parries.  
+  - Reset animation: Sparks
 
-#### Attack - Shuriken (`Left Mouse Button`)
-- Fast, small projectile.  
-- Damage: 20  
-- Reset animation: Slash
+- **Attack - Shuriken (`Left Mouse Button`)**
+  - Fast, small projectile.  
+  - Damage: 20  
+  - Reset animation: Slash
 
 ---
 
