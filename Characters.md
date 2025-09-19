@@ -1,22 +1,20 @@
 ## Overview
 Each fighter in **Terminal Fighter** comes with a unique playstyle, stats, and abilities. While all characters share some basic rules and structure, their differences create dynamic and strategic matchups.
 
----
-
-### Shared Traits
+## Shared Traits
 
 - **Health:** All characters start with 120 HP.
 - **Abilities:** Each character has 1 passive ability and 2 active abilities (bound to `E` and `Right Mouse Button`/`F`).
 - **Attacks:** All characters use projectile attacks that deal damage when aimed and landed precisely. Abilities do not deal damage directly but help you land your attacks.
 
-#### Controls
+### Controls
 
 - **Jump:** Hold `Space` to control jump height.
 - **Shoot:** Projectiles are fired toward the cursor using `Left Mouse Button`.
 - **Projectiles:** No gravity/drop-off; fixed speed and limited lifetime.
 - **Movement & Aiming:** Move in one direction while aiming/shooting in another. An aiming indicator helps opponents track your direction.
 
-#### Characters differ in:
+### Characters differ in:
 
 - Abilities  
 - Movement speed  
@@ -25,7 +23,7 @@ Each fighter in **Terminal Fighter** comes with a unique playstyle, stats, and a
 - Hitbox dimensions  
 - Cooldown durations
 
----
+## Characters
 
 ### Ninja - Mobile, Agile, and Outplay-Focused
 
