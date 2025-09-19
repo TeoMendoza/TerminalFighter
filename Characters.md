@@ -3,16 +3,16 @@ Each fighter in Terminal Fighter comes with a unique playstyle, stats, and abili
 
 ## Shared Traits
 
-- **Health:** All characters start with 120 HP.
-- **Abilities:** Each character has 1 passive ability and 2 active abilities (bound to `E` and `Right Mouse Button`/`F`).
-- **Attacks:** All characters use projectile attacks that deal damage when aimed and landed precisely. Abilities do not deal damage directly but help you land your attacks.
+- Health: All characters start with 120 HP.
+- Abilities: Each character has 1 passive ability and 2 active abilities (bound to `E` and `Right Mouse Button`/`F`).
+- Attacks: All characters use projectile attacks that deal damage when aimed and landed precisely. Abilities do not deal damage directly but help you land your attacks.
 
 ### Controls
 
-- **Jump:** Hold `Space` to control jump height.
-- **Shoot:** Projectiles are fired toward the cursor using `Left Mouse Button`.
-- **Projectiles:** No gravity/drop-off; fixed speed and limited lifetime.
-- **Movement & Aiming:** Move in one direction while aiming/shooting in another. An aiming indicator helps opponents track your direction.
+- Jump: Hold `Space` to control jump height.
+- Shoot: Projectiles are fired toward the cursor using `Left Mouse Button`.
+- Projectiles: No gravity/drop-off; fixed speed and limited lifetime.
+- Movement & Aiming: Move in one direction while aiming/shooting in another. An aiming indicator helps opponents track your direction.
 
 ### Characters Differences:
 
@@ -75,7 +75,7 @@ The Goblin thrives on close-range pressure and rewards patient, reactive play. P
 - Aerial-only move. Slams the ground and stuns/knocks back enemies.
 - Reset animation: Earthquake (Rocks)
 
-**Types of Slams:**
+Types of Slams:
 
 - Quick Slam: Short jump followed by vertical slam. Fast, light knockback.  
 - High Quick Slam: Tall jump, aim cursor below. Still vertical, but builds stronger knockback.  
