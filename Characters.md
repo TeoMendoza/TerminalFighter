@@ -30,24 +30,20 @@ Each fighter in Terminal Fighter comes with a unique playstyle, stats, and abili
 The Ninja excels in evasion, counterplay, and quick repositioning. Light but deadly in the right hands.
 
 #### Passive - Double Jump
-
 - Refreshes whenever you touch the ground.
-
+  
 #### Ability 1 - Dash (`E`)
-
 - Invulnerable dash in your movement direction.  
 - Can phase through attacks and abilities, but not through solid objects or players.  
 - Reset animation: Smoke cloud
 
 #### Ability 2 - Block (`Right Mouse Button` / `F`)
-
 - Reflect incoming projectiles only if facing them.  
 - Movement is slowed during block.  
 - Perfect for baits and aggressive parries.  
 - Reset animation: Sparks
 
 #### Attack - Shuriken (`Left Mouse Button`)
-
 - Fast, small projectile.  
 - Damage: 20  
 - Reset animation: Slash
