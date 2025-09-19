@@ -22,9 +22,9 @@ Design Reasoning: With only two characters, I avoided creating counter-pick scen
 #### Ninja
 - Concept: A fast, agile character built around mobility and outplay potential.  
 - Abilities:  
-  - **Passive: Double Jump** - improves mobility and outplay potential.  
-  - **Active 1: Dash** - can be used aggressively to close distance or defensively to escape.  
-  - **Active 2: Block** - a versatile tool that turns defense into offense, enabling counterplay.  
+  - **Passive - Double Jump:** Improves mobility and outplay potential.  
+  - **Active 1 - Dash:** Can be used aggressively to close distance or defensively to escape.  
+  - **Active 2 - Block:** A versatile tool that turns defense into offense, enabling counterplay.  
 - Strengths: Can bait opponents into bad positions, then capitalize with quick movement and reactive abilities. Offers high skill expression for advanced players.  
 - Weaknesses: Low damage output makes it difficult to finish opponents. Requires consistent, well-timed ability use to stay competitive, which can feel unrewarding for casual players.  
 
@@ -33,24 +33,24 @@ Design Reasoning: With only two characters, I avoided creating counter-pick scen
 #### Goblin
 - Concept: A reckless, high-damage character with a chaotic, energetic playstyle.  
 - Abilities:  
-  - **Passive: Comeback Tank** - when below 33% HP, gains a permanent speed increase. This makes him more mobile in late fights and enhances punish potential with abilities like Slam.  
-  - **Active 1: Slam** - a high-impact, stun-heavy ability for punishing opponents.  
-  - **Active 2: Carb Up** - temporarily reduces incoming damage and boosts movement speed, allowing reckless but forgiving play.  
+  - **Passive - Comeback Tank:** When below 33% HP, gains a permanent speed increase. This makes him more mobile in late fights and enhances punish potential with abilities like Slam.  
+  - **Active 1 - Slam:** A high-impact, stun-heavy ability for punishing opponents.  
+  - **Active 2 - Carb Up:** Temporarily reduces incoming damage and boosts movement speed, allowing reckless but forgiving play.  
 - Strengths: Feels powerful and fun to play. The kit is forgiving to less technical players, while still enabling fast-paced punishes for skilled ones. Carb Up gives him strong defensive flexibility, and the passive ensures exciting comebacks.  
 - Weaknesses: Relatively stationary outside of Carb Up and passive speed buff. Vulnerable once abilities are on cooldown. Has fewer creative outplay options compared to Ninja, which limited his long-term depth.  
 
 ## 4. Strengths (What Worked)
-- Abilities felt rewarding - testers consistently enjoyed using abilities to outplay opponents. Kits complemented mobility and created distinct playstyles.  
-- Time-to-kill was well-balanced - matches felt tense, with comeback potential even after mistakes. This created a satisfying back-and-forth rather than “first hit wins.”  
-- Playtest validation - friends and classmates praised the uniqueness and polish of abilities, noting the high skill ceiling and satisfying outplay potential.  
+- Abilities felt rewarding: Testers consistently enjoyed using abilities to outplay opponents. Kits complemented mobility and created distinct playstyles.  
+- Time-to-kill was well-balanced: Matches felt tense, with comeback potential even after mistakes. This created a satisfying back-and-forth rather than “first hit wins.”  
+- Playtest validation: Friends and classmates praised the uniqueness and polish of abilities, noting the high skill ceiling and satisfying outplay potential.  
 
 ## 5. Weaknesses (What Didn’t Work)
-- Basic attack design - intended as a high-damage reward after smart ability use, but it felt sluggish and punishing. A lower-damage, clip-based system would have better matched the game’s fast pace.  
-- HUD-free readability - while immersive in concept, the cooldown effects at player feet were difficult to interpret. Problems included:  
+- Basic attack design: Intended as a high-damage reward after smart ability use, but it felt sluggish and punishing. A lower-damage, clip-based system would have better matched the game’s fast pace.  
+- HUD-free readability: While immersive in concept, the cooldown effects at player feet were difficult to interpret. Problems included:  
   - Linking effects to specific abilities was unintuitive.  
   - Visual polish was lacking, reducing clarity.  
   - No audio feedback, which left players guessing.  
-- Development constraints - as my first shipped game, I underestimated the complexity of multiplayer. Using client authority caused desync issues, making features like bullet drop impractical. The lack of modular systems also prevented me from expanding beyond two characters.  
+- Development constraints: As my first shipped game, I underestimated the complexity of multiplayer. Using client authority caused desync issues, making features like bullet drop impractical. The lack of modular systems also prevented me from expanding beyond two characters.  
 
 ## 6. Iterations & Trade-offs
 - Ability reworks:  
@@ -69,7 +69,7 @@ Design Reasoning: With only two characters, I avoided creating counter-pick scen
 - Technical lessons:  
   - Multiplayer development is far more complex than expected. Client authority causes issues with fairness and feel; server authority, while harder, is the right long-term choice.  
 - Personal growth:  
-  - Scope realistically - finishing a smaller, polished game is more valuable than overreaching.  
+  - Scope realistically: Finishing a smaller, polished game is more valuable than overreaching.  
   - UI/UX is as important as mechanics. Even great abilities feel flat if they aren’t communicated effectively.  
 
 ## 8. Future Work
