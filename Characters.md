@@ -1,3 +1,4 @@
+## Overview
 Each fighter in **Terminal Fighter** comes with a unique playstyle, stats, and abilities. While all characters share some basic rules and structure, their differences create dynamic and strategic matchups.
 
 ---
