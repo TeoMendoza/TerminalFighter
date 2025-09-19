@@ -88,5 +88,3 @@ The Sumo thrives on close-range pressure and rewards patient, reactive play. Gre
 - Slower but heavier projectile.  
 - **Damage:** 30
 - **Reset animation:** Coins
-
----
