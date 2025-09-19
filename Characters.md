@@ -1,5 +1,5 @@
 ## Overview
-Each fighter in Terminal Fighter comes with a unique playstyle, stats, and abilities. While all characters share some basic rules and structure, their differences create dynamic and strategic matchups.
+Each fighter in Terminal Fighter comes with a unique playstyle, stats, and abilities. While all characters share the same core rules, their differences create dynamic and strategic matchups.
 
 ## Shared Traits
 
@@ -54,13 +54,13 @@ The Ninja excels in evasion, counterplay, and quick repositioning. Light but dea
 
 ---
 
-### Sumo - Heavy, Durable, and Punishing
+### Goblin - Heavy, Durable, and Punishing
 
-The Sumo thrives on close-range pressure and rewards patient, reactive play. Great for those who want to control the fight.
+The Goblin thrives on close-range pressure and rewards patient, reactive play. Perfect for players who want to control the fight
 
 #### Passive - Comeback Tank
 
-- Below 40 HP, Sumo becomes faster.  
+- Below 40 HP, gains movement speed.  
 - In mirror matches, receives reduced knockback and stun duration, allowing quicker counterattacks.
 
 #### Ability 1 - Carb Up (`Right Mouse Button` / `F`)
