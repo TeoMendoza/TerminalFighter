@@ -16,7 +16,7 @@ Before launching the game, you must run the included matchmaking server (Matchma
 
 Open Terminal Fighter in Godot or run the exported binary. From the main menu:
 
-- Choose your character: each has a unique playstyle. Once selected, search for a match. You’ll be locked into that character until returning back to the main menu. The game will connect you to an available opponent automatically.
+- Choose your character: each has a unique playstyle. Once selected, search for a match. You’ll be locked into that character until returning to the main menu. The game will connect you to an available opponent automatically.
 - After each match, you’ll be returned to the lobby. There’s no need to restart the game or server, just find a new match and play again!
 
 ## Additional Tips
@@ -31,7 +31,7 @@ Thanks for checking out Terminal Fighter.
 
 This project began in April as a side passion while balancing two jobs and full-time school. Progress was slow at first, but over spring break I finally found the time to build out the first character, The Ninja, and implement online play. The second character, The Sumo, came together much faster thanks to that early groundwork.
 
-While I’ve poured a lot into this project, I’m now stepping away to start something new, 3D free-for-all fighter game built with Unity and Spacetime DB. It's quite a big step up from this game, but I’m excited about where it’s going. 
+While I’ve poured a lot into this project, I’m now stepping away to start something new: a 3D free-for-all fighter built with Unity and SpacetimeDB. It's quite a big step up from this game, but I’m excited about where it’s going. 
 
 Stay tuned, and enjoy playing!
 
