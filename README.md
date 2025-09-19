@@ -2,8 +2,6 @@
 
 A local multiplayer 2D fighting game built in Godot. Choose your fighter, match with a friend over LAN, and battle it out using distinct abilities. The game features two unique characters, responsive controls, and an in-house matchmaking system for playing.
 
----
-
 ## Getting Started
 
 ### 1. Start the Matchmaking Server
@@ -13,8 +11,6 @@ Before launching the game, you must run the included matchmaking server. You wil
 - Make sure you have **Python** and **Flask** installed.
 
 > **Note:** This server currently supports **LAN (same network)** connections only.
-
----
 
 ### 2. Launch the Game
 
@@ -26,15 +22,11 @@ Open **Terminal Fighter** in Godot or run the exported binary. From the main men
 
 After each match, you’ll be returned to the lobby. There’s no need to restart the game or server, just find a new match and play again!
 
----
-
 ## Additional Tips
 
 - If performance becomes sluggish, check your network connection.
 - Restarting both the matchmaking server and game client can help resolve any temporary issues.
 - On first-time setup, it’s recommended that the player running the matchmaking server initiates the first match. This ensures proper IP assignment and prevents connection errors. After the first match, either player may initiate matchmaking.
-
----
 
 ## Developer's Note
 
@@ -47,8 +39,6 @@ Though I’ve poured a lot into this project, I’m now stepping away to start s
 **Stay tuned enjoy playing!**
 
 Teo
-
----
 
 ## Additional Documentation
 - [Characters](Characters.md)
