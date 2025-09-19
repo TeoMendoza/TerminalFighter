@@ -1,6 +1,6 @@
 ## Overview
 
-Terminal Fighter is a 2D Fighting Game built as a lightweight way to explore online multiplayer systems in Godot. Choose your fighter, match with a friend over LAN, and battle it out using distinct abilities. The game features two unique characters, responsive controls, and an in-house matchmaking system for playing.
+Terminal Fighter is a 2D fighting game built as a lightweight way to explore online multiplayer systems in Godot. Choose your fighter, match with a friend over LAN, and battle it out using distinct abilities. The game features two unique characters, responsive controls, and an in-house matchmaking system for playing.
 
 ## Getting Started
 
@@ -29,9 +29,9 @@ Open Terminal Fighter in Godot or run the exported binary. From the main menu:
 
 Thanks for checking out Terminal Fighter.
 
-This project began in February as a side passion while balancing two jobs and full-time school. Progress was slow at first, but over spring break I finally found the time to build out the first character, The Ninja, and implement online play. The second character, The Sumo, came together much faster thanks to that early groundwork.
+This project began in April as a side passion while balancing two jobs and full-time school. Progress was slow at first, but over spring break I finally found the time to build out the first character, The Ninja, and implement online play. The second character, The Sumo, came together much faster thanks to that early groundwork.
 
-Though I’ve poured a lot into this project, I’m now stepping away to start something new, 3D Free For All Fighter Game Built With Unity & Spacetime DB. It's quite a big step up from this game, but I’m excited about where it’s going. 
+While I’ve poured a lot into this project, I’m now stepping away to start something new, 3D free-for-all fighter game built with Unity and Spacetime DB. It's quite a big step up from this game, but I’m excited about where it’s going. 
 
 Stay tuned, and enjoy playing!
 
