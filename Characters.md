@@ -75,7 +75,7 @@ The Goblin thrives on close-range pressure and rewards patient, reactive play. P
 - Aerial-only move. Slams the ground and stuns/knocks back enemies.
 - Reset animation: Earthquake (Rocks)
 
-Types of Slams:
+**Types of Slams:**
 
 - Quick Slam: Short jump followed by vertical slam. Fast, light knockback.  
 - High Quick Slam: Tall jump, aim cursor below. Still vertical, but builds stronger knockback.  
