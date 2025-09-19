@@ -25,9 +25,9 @@ Each fighter in Terminal Fighter comes with a unique playstyle, stats, and abili
 
 ## Characters
 
-### Ninja - Mobile, Agile, and Outplay-Focused
+### The Ninja
 
-The Ninja excels in evasion, counterplay, and quick repositioning. Light but deadly in the right hands.
+The Ninja is a swift fighter who thrives on mobility, counterplay, and clever repositioning. Built for players who enjoy fast paced duels, he excels at slipping past attacks, baiting opponents into mistakes, and punishing with speed and precision. While his damage output is modest compared to heavier fighters, his versatile kit rewards patience, creativity, and mechanical mastery. In skilled hands, the Ninja can dance around slower enemies and turn small openings into decisive advantages, but careless play leaves him fragile and exposed.
 
 #### Passive - Double Jump
 - Refreshes whenever you touch the ground.
@@ -50,9 +50,9 @@ The Ninja excels in evasion, counterplay, and quick repositioning. Light but dea
 
 ---
 
-### Goblin - Heavy, Durable, and Punishing
+### The Goblin
 
-The Goblin thrives on close-range pressure and rewards patient, reactive play. Perfect for players who want to control the fight
+The Goblin is a brawler who dominates close-range encounters with raw power and resilience. Built for players who prefer to control space and trade blows, he excels at punishing reckless opponents and turning defensive moments into devastating counterattacks. His abilities give him the tools to withstand pressure, create openings, and unleash high damage bursts when the time is right. While slower and less versatile than more agile fighters, his sheer durability and comeback potential make him a constant threat. In the hands of a patient player, the Goblin can weather assaults, outlast opponents, and crush them with decisive, punishing blows.
 
 #### Passive - Comeback Tank
 
