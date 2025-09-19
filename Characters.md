@@ -37,20 +37,20 @@ The Ninja excels in evasion, counterplay, and quick repositioning. Light but dea
 
 - Invulnerable dash in your movement direction.  
 - Can phase through attacks and abilities, but not through solid objects or players.  
-- **Reset animation:** Smoke cloud
+- Reset animation: Smoke cloud
 
 #### Ability 2 - Block (`Right Mouse Button` / `F`)
 
-- Reflect incoming projectiles **only if facing them**.  
+- Reflect incoming projectiles only if facing them.  
 - Movement is slowed during block.  
 - Perfect for baits and aggressive parries.  
-- **Reset animation:** Sparks
+- Reset animation: Sparks
 
 #### Attack - Shuriken (`Left Mouse Button`)
 
 - Fast, small projectile.  
-- **Damage:** 20  
-- **Reset animation:** Slash
+- Damage: 20  
+- Reset animation: Slash
 
 ---
 
@@ -68,21 +68,21 @@ The Goblin thrives on close-range pressure and rewards patient, reactive play. P
 - Temporary 1.5-second speed boost.  
 - Incoming damage reduced to 10 flat per projectile.  
 - Can be used while other abilities are active.
-- **Reset animation:** Bones
+- Reset animation: Bones
 
 #### Ability 2 - Slam (`E`)
 
 - Aerial-only move. Slams the ground and stuns/knocks back enemies.
-- **Reset animation:** Earthquake (Rocks)
+- Reset animation: Earthquake (Rocks)
 
 **Types of Slams:**
 
-- **Quick Slam:** Short jump followed by vertical slam. Fast, light knockback.  
-- **High Quick Slam:** Tall jump, aim cursor below. Still vertical, but builds stronger knockback.  
-- **Long Slam:** Aim cursor away from your character for diagonal/horizontal slam. Used to reach distant targets.
+- Quick Slam: Short jump followed by vertical slam. Fast, light knockback.  
+- High Quick Slam: Tall jump, aim cursor below. Still vertical, but builds stronger knockback.  
+- Long Slam: Aim cursor away from your character for diagonal/horizontal slam. Used to reach distant targets.
 
 #### Attack - Coin Bag (`Left Mouse Button`)
 
 - Slower but heavier projectile.  
-- **Damage:** 30
-- **Reset animation:** Coins
+- Damage: 30
+- Reset animation: Coins
