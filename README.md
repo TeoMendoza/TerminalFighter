@@ -46,4 +46,4 @@ Though I’ve poured a lot into this project, I’m now stepping away to start s
 
 **Stay tuned enjoy playing!**
 
-— Teo
+- Teo
