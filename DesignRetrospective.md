@@ -28,6 +28,8 @@ Key inspirations included *Super Smash Bros* and *Multiversus*. Unlike those tit
 - **Strengths:** Can bait opponents into bad positions, then capitalize with quick movement and reactive abilities. Offers high skill expression for advanced players.  
 - **Weaknesses:** Low damage output makes it difficult to finish opponents. Requires consistent, well-timed ability use to stay competitive, which can feel unrewarding for casual players.  
 
+---
+
 #### Goblin
 - **Concept:** A reckless, high-damage character with a chaotic, energetic playstyle.  
 - **Abilities:**  
