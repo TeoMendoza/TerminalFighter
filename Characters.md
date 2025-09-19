@@ -29,26 +29,12 @@ Each fighter in Terminal Fighter comes with a unique playstyle, stats, and abili
 
 The Ninja is a swift fighter who thrives on mobility, counterplay, and clever repositioning. Built for players who enjoy fast paced duels, he excels at slipping past attacks, baiting opponents into mistakes, and punishing with speed and precision. While his damage output is modest compared to heavier fighters, his versatile kit rewards patience, creativity, and mechanical mastery. In skilled hands, the Ninja can dance around slower enemies and turn small openings into decisive advantages, but careless play leaves him fragile and exposed.
 
-### Ability Set
+#### Ability Set
 
-- **Passive - Double Jump**
-  - Refreshes whenever you touch the ground.
-  
-- **Ability 1 - Dash (`E`)**
-  - Invulnerable dash in your movement direction.  
-  - Can phase through attacks and abilities, but not through solid objects or players.  
-  - Reset animation: Smoke cloud
-
-- **Ability 2 - Block (`Right Mouse Button` / `F`)**
-  - Reflect incoming projectiles only if facing them.  
-  - Movement is slowed during block.  
-  - Perfect for baits and aggressive parries.  
-  - Reset animation: Sparks
-
-- **Attack - Shuriken (`Left Mouse Button`)**
-  - Fast, small projectile.  
-  - Damage: 20  
-  - Reset animation: Slash
+- **Passive - Double Jump:** Refreshes whenever you touch the ground.
+- **Ability 1 - Dash (`E`):** Invulnerable dash in your movement direction. Can phase through attacks and abilities, but not through solid objects or players. Reset animation: Smoke cloud.
+- **Ability 2 - Block (`Right Mouse Button` / `F`):** Reflect incoming projectiles only if facing them. Movement is slowed during block. Perfect for baits and aggressive parries. Reset animation: Sparks.
+- **Attack - Shuriken (`Left Mouse Button`):** Fast, small projectile. Damage: 20. Reset animation: Slash.
 
 ---
 
@@ -56,31 +42,13 @@ The Ninja is a swift fighter who thrives on mobility, counterplay, and clever re
 
 The Goblin is a brawler who dominates close-range encounters with raw power and resilience. Built for players who prefer to control space and trade blows, he excels at punishing reckless opponents and turning defensive moments into devastating counterattacks. His abilities give him the tools to withstand pressure, create openings, and unleash high damage bursts when the time is right. While slower and less versatile than more agile fighters, his sheer durability and comeback potential make him a constant threat. In the hands of a patient player, the Goblin can weather assaults, outlast opponents, and crush them with decisive, punishing blows.
 
-#### Passive - Comeback Tank
+#### Ability Set
 
-- Below 40 HP, gains movement speed.  
-- In mirror matches, receives reduced knockback and stun duration, allowing quicker counterattacks.
-
-#### Ability 1 - Carb Up (`Right Mouse Button` / `F`)
-
-- Temporary 1.5-second speed boost.  
-- Incoming damage reduced to 10 flat per projectile.  
-- Can be used while other abilities are active.
-- Reset animation: Bones
-
-#### Ability 2 - Slam (`E`)
-
-- Aerial-only move. Slams the ground and stuns/knocks back enemies.
-- Reset animation: Earthquake (Rocks)
-
-**Types of Slams:**
-
-- Quick Slam: Short jump followed by vertical slam. Fast, light knockback.  
-- High Quick Slam: Tall jump, aim cursor below. Still vertical, but builds stronger knockback.  
-- Long Slam: Aim cursor away from your character for diagonal/horizontal slam. Used to reach distant targets.
-
-#### Attack - Coin Bag (`Left Mouse Button`)
-
-- Slower but heavier projectile.  
-- Damage: 30
-- Reset animation: Coins
+- **Passive - Comeback Tank:** Below 40 HP, gains movement speed. In mirror matches, receives reduced knockback and stun duration, allowing quicker counterattacks.
+- **Ability 1 - Carb Up (`Right Mouse Button` / `F`):** Temporary 1.5 second speed boost. Incoming damage reduced to 10 flat per projectile. Can be used while other abilities are active. Reset animation: Bones.
+- **Ability 2 - Slam (`E`):** Aerial-only move. Slams the ground and stuns/knocks back enemies. Reset animation: Earthquake (Rocks).
+  - **Types of Slams:**
+    - Quick Slam: Short jump followed by vertical slam. Fast, light knockback.  
+    - High Quick Slam: Tall jump, aim cursor below. Still vertical, but builds stronger knockback.  
+    - Long Slam: Aim cursor away from your character for diagonal/horizontal slam. Used to reach distant targets.
+- **Attack - Coin Bag (`Left Mouse Button`):** Slower but heavier projectile. Damage: 30. Reset animation: Coins.
