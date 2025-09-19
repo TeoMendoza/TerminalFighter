@@ -14,7 +14,7 @@ Each fighter in Terminal Fighter comes with a unique playstyle, stats, and abili
 - **Projectiles:** No gravity/drop-off; fixed speed and limited lifetime.
 - **Movement & Aiming:** Move in one direction while aiming/shooting in another. An aiming indicator helps opponents track your direction.
 
-### Characters differ in:
+### Characters Differences:
 
 - Abilities  
 - Movement speed  
