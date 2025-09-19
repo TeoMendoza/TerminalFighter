@@ -13,7 +13,9 @@ Each fighter in Terminal Fighter comes with a unique playstyle, stats, and abili
 - Movement & Aiming: Move in one direction while aiming/shooting in another. An aiming indicator helps opponents track your direction.
 
 ### Character Differences
-- Abilities, movement speed, jump height, projectile speed and size, hitbox dimensions, cooldown durations.
+- Abilities, cooldown durations
+- Movement speed, jump height
+- Attack speed and size, hitbox dimensions
 
 ## Characters
 
