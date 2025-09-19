@@ -19,7 +19,7 @@ Design Reasoning: With only two characters, I avoided creating counter-pick scen
 
 ### Characters
 
-#### Ninja
+#### The Ninja
 - Concept: A fast, agile character built around mobility and outplay potential.  
 - Abilities:  
   - **Passive - Double Jump:** Improves mobility and outplay potential.  
@@ -30,14 +30,14 @@ Design Reasoning: With only two characters, I avoided creating counter-pick scen
 
 ---
 
-#### Goblin
+#### The Goblin
 - Concept: A reckless, high-damage character with a chaotic, energetic playstyle.  
 - Abilities:  
   - **Passive - Comeback Tank:** When below 33% HP, gains a permanent speed increase. This makes him more mobile in late fights and enhances punish potential with abilities like Slam.  
   - **Active 1 - Slam:** A high-impact, stun-heavy ability for punishing opponents.  
   - **Active 2 - Carb Up:** Temporarily reduces incoming damage and boosts movement speed, allowing reckless but forgiving play.  
-- Strengths: Feels powerful and fun to play. The kit is forgiving to less technical players, while still enabling fast-paced punishes for skilled ones. Carb Up gives him strong defensive flexibility, and the passive ensures exciting comebacks.  
-- Weaknesses: Relatively stationary outside of Carb Up and passive speed buff. Vulnerable once abilities are on cooldown. Has fewer creative outplay options compared to Ninja, which limited his long-term depth.  
+- Strengths: Feels powerful and fun to play. The kit is forgiving to less technical players, while still enabling fast-paced punishes and defensive flexibility for skilled ones.
+- Weaknesses: Relatively stationary outside of Carb Up and passive speed buff. Vulnerable once abilities are on cooldown. Has fewer creative outplay options, which limits his long-term depth.  
 
 ## 4. Strengths (What Worked)
 - Abilities felt rewarding: Testers consistently enjoyed using abilities to outplay opponents. Kits complemented mobility and created distinct playstyles.  
