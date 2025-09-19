@@ -1,4 +1,4 @@
-# Terminal Fighter
+## Overview
 
 A local multiplayer 2D fighting game built in Godot. Choose your fighter, match with a friend over LAN, and battle it out using distinct abilities. The game features two unique characters, responsive controls, and an in-house matchmaking system for playing.
 
